@@ -1,0 +1,136 @@
+/* Rests css */
+html, body, div, span, applet, object, iframe, table, caption,  
+tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins,  
+kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,  
+acronym, address, big, cite, code, dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend {  
+    vertical-align: baseline;  
+    font-family: inherit;  
+    font-weight: inherit;  
+    font-style: inherit;  
+    font-size: 100%;  
+    outline: 0;  
+    padding: 0;  
+    margin: 0;  
+    border: 0;  
+}  
+:focus {  
+    outline: 0;  
+}  
+body {  
+    line-height: 1;  
+    color: black;  
+}  
+ol, ul {  
+    list-style: none;  
+}  
+table {  
+    border-collapse: separate;  
+    border-spacing: 0;  
+}  
+caption, th, td {  
+    font-weight: normal;  
+    text-align: left;  
+}  
+blockquote:before, blockquote:after, q:before, q:after {  
+    content: "";  
+}  
+blockquote, q {  
+    quotes: "" "";  
+}
+
+
+/* Sabrina */
+body{
+		background-color: lightgrey ;
+}
+
+#Principal{
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	width: 1270px;
+	border: 2px black solid;
+	border-radius: 10px;
+	background-color: white;
+}
+
+.seccion{
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 1200;
+	color: white;
+}
+
+#Superior{
+	height: 300px;
+	background: black url('imgs/cabecera.jpg') no-repeat center;
+}
+
+#Medio{
+	background-color: #3F7387;
+}
+
+#Medio div{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	height: 300px;
+	text-align: left;
+	margin: 5px;
+}
+
+#MedioIzquierda{
+	background: white;
+}
+
+#MedioCentro{
+	background: white;
+}
+
+#MedioDerecha{
+	background: black;
+}
+
+#Inferior{
+	background-color: slategray;
+}
+
+a{
+	text-decoration: none;
+	color: lightblue;
+}
+
+a:hover{
+	color: lightgray;
+}
+
+a:active{
+	color: orange;
+}
+
+a:visited{
+	color: #E91950;
+}
+
+
+#Reproductor{
+	width: 400px;
+	height: 300px;
+}
+
+li{
+	margin-top: 10px;
+	background: #999;
+}
+
+.active{
+	color: #000;
+}
+
+.hover{
+	cursor: pointer;
+	color: #923;
+}
