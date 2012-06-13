@@ -93,6 +93,9 @@ body{
 #MedioDerecha{
 	background: black;
 }
+#video{
+	margin: 0 !important;
+}
 
 #Inferior{
 	background-color: slategray;
@@ -101,6 +104,8 @@ body{
 a{
 	text-decoration: none;
 	color: lightblue;
+	display: block;
+	padding: 4px 8px;
 }
 
 a:hover{
@@ -126,11 +131,11 @@ li{
 	background: #999;
 }
 
-.active{
+.active a{
 	color: #000;
 }
 
-.hover{
+.hover a{
 	cursor: pointer;
 	color: #923;
 }
